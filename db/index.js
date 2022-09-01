@@ -1,3 +1,7 @@
+/**
+ * Se estable la conexión con la Base de Datos.
+ */
+
 // ℹ️ package responsible to make the connection with mongodb
 // https://www.npmjs.com/package/mongoose
 const mongoose = require("mongoose");

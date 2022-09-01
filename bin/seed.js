@@ -1,3 +1,7 @@
+/**
+ * En estos archivos es donde crearemos archivos que se ejecutarán por separado, será algo que nunca ejecute el servidor.
+ */
+
 require('dotenv/config');
 const mongoose = require('mongoose');
 const UserModel = require('../models/user.model');

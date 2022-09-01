@@ -1,3 +1,7 @@
+/**
+ * Se configurará todos los modelos de la BD
+ */
+
 const { Schema, model } = require('mongoose');
 
 const booksSchema = new Schema({

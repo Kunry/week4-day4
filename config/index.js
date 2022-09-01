@@ -1,3 +1,7 @@
+/**
+ * En estos archivos irá toda la configuración que necesiten los diferentes paquetes que utilicemos.
+ */
+
 // We reuse this import in order to have access to the `body` property in requests
 const express = require("express");
 

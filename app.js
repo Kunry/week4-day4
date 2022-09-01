@@ -1,3 +1,7 @@
+/**
+ * En el archivo app.js es donde organiza todos los archivos para que el servidor funcione correctamente.
+ */
+
 // ℹ️ Gets access to environment variables/settings
 // https://www.npmjs.com/package/dotenv
 require("dotenv/config");
