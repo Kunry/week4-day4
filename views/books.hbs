@@ -1,0 +1,14 @@
+
+{{#each books}}
+  <a href="/api/{{_id}}">{{title}}</a>
+{{/each}}
+
+
+<form action="/api/books" method="GET">
+  <label>
+    Author
+    <input type="text" name="author">
+  </label>
+  
+  <button type="submit">SEARCH</button>
+</form>
